@@ -9,7 +9,7 @@
 
   <name>template</name>
   <url>http://maven.apache.org</url>
-  
+
   <build>
      <extensions>
         <extension>
@@ -19,7 +19,7 @@
         </extension>
      </extensions>
   </build>
-  
+
   <distributionManagement>
     <snapshotRepository>
         <id>me.philcali.maven.snapshot</id>
@@ -38,7 +38,8 @@
   </properties>
 
   <modules>
-  	<module>template-api</module>
-  	<module>template-handlebars</module>
+    <module>template-api</module>
+    <module>template-handlebars</module>
+    <module>template-annotation</module>
   </modules>
 </project>
